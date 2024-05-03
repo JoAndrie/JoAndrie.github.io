@@ -1,91 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="shortcut icon" href="https://i.ibb.co/GHctgsk/favicon.webp" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Website</title>
+        <link rel="shortcut icon" href="https://i.ibb.co/GHctgsk/favicon.webp" type="image/x-icon">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
 
-    <header>
-        <div class="wrapper">
-            <h2>My <span>Website</span></h2>
-        </div>
-    </header>
-
-    <nav id="navigation">
-        <div class="wrapper">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="https://www.facebook.com/josh.pardo.5099" target="_blank">About</a></li>
-                <li><a href="#Services_con">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="banner">
-        <figure>
-            <img src="https://fdc-inc.com/wp-content/uploads/2023/08/Buildings-1.jpg" alt="Building">
-        </figure>
-        <div class="banner_info">
-            <h3><small class="c_orange">Always do your best.</small> What you plant now, <span>you will <q class="c_red">harvest later.</q></span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolore molestiae tenetur minima accusamus, eius necessitatibus, error a doloremque repellendus nisi impedit quae quam! Earum magnam error perferendis pariatur eveniet!</p>
-            <a href="">About Me</a>
-        </div>
-    </div>
-
-    <div id="Services_con" class="Services">
-
-        <div class="wrapper">
-
-            <h3 class="t_center">My Service</h3>
-
-            <div class="service_boxes">
-                <section class="t_center">
-                    <figure>
-                        <img src="https://fdc-inc.com/wp-content/themes/fortydegreecelsuis2023/nh_what_we_offer/images/web_dev.jpg" alt="man in a computer">
-                    </figure>
-                    <h3>Service1</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi hic expedita illum qui vel magnam nihil laborum odio dolor. Iusto unde impedit libero in tempora accusamus et soluta ipsam sapiente?</p>
-                    <a href="">Link1</a>
-                </section>
-
-                <section class="t_center">
-                    <figure>
-                        <img src="https://fdc-inc.com/wp-content/themes/fortydegreecelsuis2023/nh_what_we_offer/images/systems_and_analysis.jpg" alt="pongs is bz">
-                    </figure>
-                    <h3>Service2</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi hic expedita illum qui vel magnam nihil laborum odio dolor. Iusto unde impedit libero in tempora accusamus et soluta ipsam sapiente?</p>
-                    <a href="">Link2</a>
-                </section>
+        <header>
+            <div class="wrapper">
+                <h2> Website ni <span>Jonathan</span></h2>
             </div>
+        </header>
 
+        <nav id="navigation">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="#navigation">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services_con">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="banner">
+            <figure>
+                <img src="https://fdc-inc.com/wp-content/uploads/2023/08/Buildings-1.jpg" alt="Building">
+            </figure>
+            <div class="banner_info">
+                <img class="profile-picture" src="./media/unknown.png" alt="Your Picture">
+                <h3><small class="c_orange">The journey begins</small> One step at a time, <span>you'll <q class="c_red">reach new heights.</q></span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolore molestiae tenetur minima accusamus, eius necessitatibus, error a doloremque repellendus nisi impedit quae quam! Earum magnam error perferendis pariatur eveniet!</p>
+
+                <a href="">About Me</a>
+            </div>
         </div>
-    </div>
 
-    <footer id="main_footer" class="t_center">Copyright &copy; 2024 My First Website</footer>
+        <div id="about">
+            <section id="about_me" class="wrapper">
+                <h3 class="t_center"><i class="material-icons">perm_identity</i> About Me</h3>
+                <p class="t_center">Hi there! I'm <span class="c_orange">Jonathan Andrie Fabi</span>, a passionate individual on a journey of self-discovery and growth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam quos nam dicta rem temporibus assumenda itaque pariatur qui amet inventore neque, repellendus nostrum, explicabo quis necessitatibus, cum quaerat. Repudiandae?.</p>
+                
+                <h4 class="t_center">Educational Background</h4>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-content">
+                            <h5><i class="material-icons">school</i> Eastern Visayas State University</h5>
+                            <h5>[2019-2023]</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ratione sit soluta suscipit provident cumque rerum esse sunt numquam eum, doloremque commodi unde aut reiciendis. Aperiam iste doloribus qui porro?.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h5><i class="material-icons">school</i> ACLC College of Tacloban</h5>
+                            <h5>[2017-2019]</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui optio praesentium ab sapiente, distinctio cumque error expedita architecto nam nisi quo nulla cum eaque sed delectus, nihil, iure minus?.</p>
+                        </div>
+                    </li>
+                </ul>   
 
-    <div class="social_media">
-        <a href="" target="_blank">
-            <figure>
-                <img src="https://i.ibb.co/Fq7H9MG/fb-logo.webp" alt="">
-            </figure>
-        </a>
-        <a href="">
-            <figure>
-                <img src="https://i.ibb.co/dDsT7F7/insta.png" alt="">
-            </figure>
-        </a>
-        <a href="https://www.linkedin.com/in/joandrie/" target="_blank">
-            <figure>
-                <img src="https://i.ibb.co/pLc4sXN/link-in.png" alt="">
-            </figure>
-        </a>
-    </div>
+        
+                <h4 class="t_center">Work Experience</h4>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-content">
+                            <h5><i class="material-icons">work</i> Forty Degrees Celsius Inc</h5>
+                            <h5>[August 2023 - Present]</h5>
+                            <h5>QA Tester</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, harum placeat! Quasi repudiandae voluptatibus doloremque culpa dolorem, dolore excepturi minus illo dicta ipsa et obcaecati id. At deserunt qui rerum?</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h5><i class="material-icons">work</i> SciBiz Informatics</h5>
+                            <h5>[Feb 2023 - May 2023]</h5>
+                            <h5>Backend Developer Intern</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nostrum reiciendis doloremque minus laboriosam repellat suscipit veritatis et culpa? Error sint libero asperiores dicta! Sunt voluptatum cum et soluta laborum?</p>
+                        </div>
+                    </li>
+                </ul>            
+            </section>
+        </div>
+        <br>
+        <br>
+        <div id="Services_con" class="Services">
 
-</body>
-</html>
+            <div class="wrapper">
+
+                <h3 class="t_center"><i class="material-icons">build</i> Services</h3>
+
+                <div class="service_boxes">
+                    <section class="t_center">
+                        <figure>
+                            <img src="./media/image1.jpg" alt="computerr">
+                        </figure>
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi hic expedita illum qui vel magnam nihil laborum odio dolor. Iusto unde impedit libero in tempora accusamus et soluta ipsam sapiente?</p>
+                        <a href="">My Works</a>
+                    </section>
+
+                    <section class="t_center">
+                        <figure>
+                            <img src="./media/istockphoto-1273058761-612x612.jpg" alt="testing">
+                        </figure>
+                        <h3>Software Testing</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi hic expedita illum qui vel magnam nihil laborum odio dolor. Iusto unde impedit libero in tempora accusamus et soluta ipsam sapiente?</p>
+                        <a href="">My Works</a>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="contact" class="wrapper">
+            <h3><i class="material-icons">mail</i> Contact Me</h3>
+            <p>If you have any inquiries or would like to discuss a project, feel free to contact me using the form below:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+
+        <footer id="main_footer" class="t_center">Copyright &copy; 2024 My First Website</footer>
+
+        <div class="social_media">
+            <a href="https://www.facebook.com/Jooooooooooooooooo0/" target="_blank">
+                <figure>
+                    <img src="https://i.ibb.co/Fq7H9MG/fb-logo.webp" alt="">
+                </figure>
+            </a>
+            <a href="">
+                <figure>
+                    <img src="https://i.ibb.co/dDsT7F7/insta.png" alt="">
+                </figure>
+            </a>
+            <a href="https://www.linkedin.com/in/joandrie/" target="_blank">
+                <figure>
+                    <img src="https://i.ibb.co/pLc4sXN/link-in.png" alt="">
+                </figure>
+            </a>
+        </div>
+
+    </body>
+    </html>

@@ -6,7 +6,7 @@ function getImages(){
 
 $(document).ready(function(){
     var max = 100;
-    $('p').each(function() {
+    $('.service_boxes p').each(function() {
         var text = $(this).text();
         if (text.length > max) {
             $(this).data('full-text', text); // Store full text in data attribute
